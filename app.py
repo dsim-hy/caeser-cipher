@@ -142,7 +142,7 @@ def main():
             if freq:
                 print("\n✓ Letter frequency analysis (sorted by frequency):")
                 for letter, percentage in freq.items():
-                    bar = '█' * int(percentage / 2)
+                    bar = '█' * max(1, int(percentage / 2))
                     print(f"  {letter}: {percentage:5.2f}% {bar}")
             else:
                 print("\n✗ No alphabetic characters found in the text.")

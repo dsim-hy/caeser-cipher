@@ -50,7 +50,13 @@ The application presents an interactive menu with the following options:
 ```bash
 Choose an option:
 1. Caesar Cipher (Encrypt)
-...
+2. Caesar Cipher (Decrypt)
+3. ROT13
+4. Atbash Cipher
+5. Frequency Analysis
+6. Brute Force (try all shifts)
+7. Exit
+
 Enter your choice (1-7): 1
 Enter the text: Hello World
 Enter the shift value (integer): 3
